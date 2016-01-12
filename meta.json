@@ -2,25 +2,50 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "comment",
+            "title":"Comment Body"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"Request ID"
+        },
+        {
+            "id": "requester_id",
+            "title":"Requester ID"
+        },
+        {
+            "id": "assignee_id",
+            "title":"Assignee ID"
+        },
+        {
+            "id": "collaborator_ids",
+            "title":"Collaborator ID"
+        },
+        {
+            "id": "created_at",
+            "title":"Created At"
+        },
+        {
+            "id": "subject",
+            "title":"Subject"
+        },
+        {
+            "id": "description",
+            "title":"Description"
+        },
+        {
+            "id": "status",
+            "title":"Status"
         }
-      */
     ],
-    "title": "Zendesk: Update Request" /* Required.A display name for the module */
+    "icon": "dex-zendesk",
+    "title": "Zendesk: Update Requests"
 }
