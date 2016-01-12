@@ -50,7 +50,6 @@ module.exports = {
             },
             json: true
         }, function (err, response, result) {
-            console.log(result);
             if (err || (result && result.error))
                 this.fail(err || result);
             else
